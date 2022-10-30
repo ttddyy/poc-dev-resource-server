@@ -62,7 +62,7 @@ public class DevResourcePropertySource extends EnumerablePropertySource<String> 
 		if (!containsProperty(name)) {
 			return null;
 		}
-		// TODO: hardcoded for test
+		// TODO: hardcoded for now
 		String imageName = "postgres:14";
 		Map<String, String> properties = getOrCreateContainer(imageName);
 		switch (name) {
