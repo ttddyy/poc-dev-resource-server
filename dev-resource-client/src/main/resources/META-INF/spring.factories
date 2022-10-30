@@ -1,0 +1,3 @@
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+net.ttddyy.devresourceserver.cilent.DevResourcePropertySourceApplicationRunListener
